@@ -39,6 +39,12 @@ python3 plan.py \
   --base_canvas bridge_init.jpg \
   --middle_result_name bridge_strokes.jpg
 ```
+
+If configured correctly, the result will be similar to this:
+<p align='left'>
+  <img src='images/styles/feathers.jpg' height="200px">
+</ p>
+
 ## Acknowledgement
 This project is inspired by many existing methods and their open-source implementations, including:
 
