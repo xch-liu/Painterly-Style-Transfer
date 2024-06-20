@@ -42,7 +42,7 @@ python3 plan.py \
 
 If configured correctly, the result will be similar to this:
 <p align='left'>
-  <img src='images/styles/feathers.jpg' height="200px">
+  <img src='results/bridge_strokes.jpg' height="300px">
 </ p>
 
 ## Acknowledgement
