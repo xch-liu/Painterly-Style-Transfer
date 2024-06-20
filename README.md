@@ -65,6 +65,8 @@ If configured correctly, the result will be similar to this:
 
 ## Running on new images
 
+1. 
+
 ## Acknowledgement
 This project is inspired by many existing methods and their open-source implementations, including:
 
