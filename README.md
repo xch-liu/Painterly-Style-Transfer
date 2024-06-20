@@ -65,7 +65,11 @@ If configured correctly, the result will be similar to this:
 
 ## Running on new images
 
-1. 
+For ease of running on new content/style image pairs, the following steps are recommended:
+
+1. Get the pixel-based style transfer result. Recommend using the implementation of neural style transfer by Justin Johnson [[code](https://github.com/jcjohnson/neural-style)].
+
+2. Run **plan.py** by setting **--objective_date** as the style transfer result from Step1, and adjust the stroke attributes (**--stroke_length, --stroke_curva, --num_strokes**) to get the painterly style transfer result.
 
 ## Acknowledgement
 This project is inspired by many existing methods and their open-source implementations, including:
