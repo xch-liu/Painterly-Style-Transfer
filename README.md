@@ -24,6 +24,8 @@ pip3 install --r requirements.txt
 
 ## Running on test images
 
+Paint using initial brush strokes as the base canvas:
+
 ```bash
 python3 plan.py \
   --objective_data nst_pixel/bridge_nst.png \
@@ -34,7 +36,7 @@ python3 plan.py \
   --stroke_curva 0.1 \
   --max_height 300 \
   --num_strokes 200 \
-  --base_canvas init_placement/bridge_init.jpg \
+  --base_canvas bridge_init.jpg \
   --middle_result_name bridge_strokes.jpg
 ```
 ## Acknowledgement
