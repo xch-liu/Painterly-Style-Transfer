@@ -71,6 +71,11 @@ For ease of running on new content/style image pairs, the following steps are re
 
 2. Run **plan.py** by setting **--objective_date** as the style transfer result from Step1, and adjust the stroke attributes (**--stroke_length, --stroke_curva, --num_strokes**) to get the painterly style transfer result.
 
+For ease of configuration, this project didn't include the following projects mentioned in the paper. Please follow their instructions if you want to use them:
+* Learning to Generate Line Drawings that Convey Geometry and Semantics, *Caroline Chan et al. CVPR2022* [[Project](https://carolineec.github.io/informative_drawings/)]
+* General Virtual Sketching Framework for Vector Line Art, *Haoran Mo et al. SIGGRAPH2021* [[Project](https://markmohr.github.io/virtual_sketching/)]
+
+
 ## Acknowledgement
 This project is inspired by many existing methods and their open-source implementations, including:
 
