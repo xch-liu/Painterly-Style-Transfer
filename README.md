@@ -24,7 +24,7 @@ pip3 install --r requirements.txt
 
 ## Running on test images
 
-**Paint with initial brush strokes as the base canvas:**
+#### Paint with initial brush strokes as the base canvas:
 ```bash
 python3 plan.py \
   --objective_data nst_pixel/bridge_nst.png \
@@ -44,7 +44,7 @@ If configured correctly, the result will be similar to this:
   <img src='results/bridge_strokes.jpg' height="250px">
 </ p>
 
-**Paint with different types of brush strokes:**
+#### Paint with different types of brush strokes:
 ```bash
 python3 plan.py \
   --objective_data nst_pixel/horse_nst.png \
@@ -62,6 +62,8 @@ If configured correctly, the result will be similar to this:
 <p align='left'>
   <img src='results/horse_strokes.jpg' height="250px">
 </ p>
+
+## Running on new images
 
 ## Acknowledgement
 This project is inspired by many existing methods and their open-source implementations, including:
